@@ -4,7 +4,7 @@
 
 A stunning, production-ready Next.js 14 landing page for an AI-powered product photography SaaS. Featuring smooth GSAP scroll animations, a mesmerizing Three.js particle background, interactive before/after slider, and a custom cursor.
 
-![Snapmind Hero](https://picsum.photos/id/399/900/400)
+![Snapmind - AI Product Photography Landing Page](https://github.com/Zubair-hussain/AI-landing-page-/blob/main/public/free-lancer-project.jpeg?raw=true)
 
 ## ✨ Features
 
@@ -58,6 +58,27 @@ snapmind/
 ├── tailwind.config.ts
 ├── tsconfig.json
 └── package.json
+
+```bash
+snapmind/
+├── app/
+│   ├── layout.tsx          # Root layout + metadata
+│   ├── globals.css         # CSS variables, keyframes, grain
+│   ├── page.tsx            # Main page composition
+│   └── components/
+│       ├── CustomCursor.tsx
+│       ├── ThreeBackground.tsx
+│       ├── Navbar.tsx
+│       ├── Hero.tsx
+│       ├── BeforeAfter.tsx
+│       ├── Features.tsx
+│       ├── Steps.tsx
+│       ├── Results.tsx
+│       └── Footer.tsx
+├── next.config.mjs
+├── tailwind.config.ts
+├── tsconfig.json
+└── package.json
 ```
 
 
@@ -79,15 +100,8 @@ Open http://localhost:3000 to view it in the browser.
 Production Build
 Bashnpm run build
 npm start
-📸 Screenshots
-<img src="https://picsum.photos/id/433/900/300" alt="Features Section">
-Features section with GSAP tab switching
-<img src="https://picsum.photos/id/157/900/300" alt="Three.js Background">
-Three.js particle field with mouse interaction
-<img src="https://picsum.photos/id/674/900/300" alt="Before/After Slider">
-Interactive before/after comparison
-🏷️ Tags
-nextjs react typescript tailwindcss gsap three-js webgl particles parallax saas ai-photography landing-page product-photography scroll-animation custom-cursor
+
+
 📜 License
 This project is licensed under the MIT License.
 👨‍💻 Author
