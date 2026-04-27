@@ -58,6 +58,9 @@ snapmind/
 ├── tailwind.config.ts
 ├── tsconfig.json
 └── package.json
+```
+
+
 🛠️ Installation & Setup
 
 Clone or Extract the project:
